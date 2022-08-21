@@ -1,0 +1,28 @@
+
+
+{
+    // change the name for your project
+    "name": "flutter-tpl",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    // change the name for your project
+    "workspaceFolder": "/flutter-tpl",
+    "extensions": [
+      "dart-code.flutter"
+    ],
+    "settings": {
+      "editor.tabSize": 2,
+      "debug.openDebug": "openOnDebugBreak",
+      "debug.internalConsoleOptions": "openOnSessionStart",
+      "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+      }
+    }
+  }

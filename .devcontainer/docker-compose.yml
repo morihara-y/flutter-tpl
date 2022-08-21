@@ -1,0 +1,13 @@
+version: "3.6"
+services:
+  workspace:
+    # change the name for your project
+    container_name: flutter-tpl
+    build: workspace
+    # change the name for your project
+    volumes:
+      - ../:/flutter-tpl
+    ports:
+      - "5037:5037"
+    stdin_open: true
+    tty: true
